@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Attribute</title>
+  </head>
+
+  <style>
+    data[data-product-id="12345"] {
+      color: green;
+    }
+  </style>
+  <body>
+    <h1>Learning Data Attribute in html</h1>
+
+    <!-- Data Attribute -->
+
+    <!-- DA is custom attribute that can be add in html element -->
+    <!-- Data attributes are prefixed with 'data-' -->
+
+    <!-- use : - accessiblity, js access,additonal information -->
+
+    <!-- Example -->
+
+    <!-- Html -->
+    <div
+      id="product"
+      data-product-id="12345"
+      data-category="electronics"
+      data-price="99.99"
+    ></div>
+
+    <!-- how to use in js -->
+    
+    <script>
+      // You can access these data attributes using the dataset property in JavaScript:
+
+      var productDiv = document.getElementById("product");
+
+      console.log(productDiv);
+      // Accessing data attributes
+      var productId = productDiv.dataset.productId;
+      var category = productDiv.dataset.category;
+      var price = productDiv.dataset.price;
+
+      console.log(productId); // Outputs: 12345
+      console.log(category); // Outputs: electronics
+      console.log(price); // Outputs: 99.99
+    </script>
+  </body>
+</html>

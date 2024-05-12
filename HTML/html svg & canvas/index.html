@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG & Canvas</title>
+  </head>
+  <style>
+    #svgelem {
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+      transform: translateX(-20%);
+    }
+  </style>
+  <body>
+    <h1>Learning SVG & Canvas</h1>
+
+    <!-- SVG -->
+
+    <!-- SVG is vector based img and composed of shapes -->
+    <!-- two-dimensional vector-based graphics for the web -->
+    <!-- SVG can be modified through script and CSS. -->
+    <!-- SVG gives better performance with smaller number of objects or larger surface -->
+
+    <!-- Example -->
+    <!-- <circle>: This tag creates a circle element within the SVG container.
+         Circles are one of the basic shapes available in SVG. -->
+
+    <svg id="svgelem" height="200">
+      <circle id="greencircle" cx="60" cy="60" r="50" fill="green" />
+    </svg>
+
+    <!-- Canvas -->
+
+    <!-- Canvas is rector based img and composed of pixel -->
+    <!-- Canvas can be modified through only script -->
+    <!-- Canvas gives better performance with larger number of objects or small surface -->
+
+    <!-- Example -->
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <script>
+      // Get the canvas element
+      var canvas = document.getElementById("myCanvas");
+      // Get the 2D drawing context
+      var ctx = canvas.getContext("2d");
+
+      // Draw a red rectangle
+      ctx.fillStyle = "red";
+      ctx.fillRect(10, 10, 100, 50);
+    </script>
+  </body>
+</html>

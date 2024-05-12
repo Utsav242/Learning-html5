@@ -1,0 +1,26 @@
+/* What is CSS */
+
+/* 
+CSS is cascading style sheet.
+It is used  for describing the presentation of a document written in HTML.
+
+
+1.  Type of CSS
+
+1.1 Inline CSS
+1.2 External CSS
+1.3 internal CSS.
+
+
+1. Inline css : 
+This css given in html element by adding style attribute.
+
+
+2. External css : 
+This css we need to export file from other folder. means we need to crate seperate file for css.
+
+
+3. Internal Css : 
+That css defined inside the style tag in html document after head tag.
+
+*/

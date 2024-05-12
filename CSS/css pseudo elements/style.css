@@ -1,0 +1,17 @@
+/* 
+
+Pseudo Elements : 
+
+Pseudo-elements allow you to style specific parts of an element,
+such as the first letter or line of text, or generate content before or after an element. 
+
+They are denoted by double colons :: in CSS.
+
+
+Example : 
+
+p::after{}
+
+p::first-line{}
+
+*/

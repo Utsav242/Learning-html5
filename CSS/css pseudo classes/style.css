@@ -1,0 +1,39 @@
+/* 
+Pseudo Classes 
+
+Pseudo-classes and pseudo-elements are special keywords in CSS that allow you to apply styles to elements based on various conditions or specific parts of elements.
+
+
+Pseudo-classes are used to define styles for elements that are in a certain state or condition.
+
+// Example : 
+
+button:hover {
+  background-color: lightblue;
+}
+
+div p:first-child {
+  font-weight: bold;
+}
+
+
+2. What is the difference between the :nth-child() and :nth-of-type() pseudo-classes?
+
+1. :nth-child(3){}
+
+Select item of any group of element.
+
+Example : 
+<h1><p><p><p><h2> output : is second p target
+
+
+2. :nth-of-type(){}
+
+select item of specific type of elements
+
+Example : 
+<h1><p><p><p><h2> output : is Third p target
+
+
+
+*/

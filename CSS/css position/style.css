@@ -1,0 +1,32 @@
+/* 
+
+CSS Position : 
+
+There are five types of positions : 
+
+1. Static Position : This position is by default no changes.
+// means normal flow of document
+
+2. Relative Position : This positon create new position for child div.
+// its normal flow document.
+
+3. Absolute Position : This position apply with realitve position.
+// we can move top botton let or right inside of parrent div.
+
+
+4. Fixed Position : Fixed page of web browser means when we scroll page so nothng change anything.
+
+5. Sticky Position : 
+An element with sticky positioning behaves like a relatively positioned element 
+until it reaches a specified threshold (usually defined by the top, right, bottom, or left properties), 
+after which it becomes fixed.
+
+
+
+
+
+
+
+
+
+*/
